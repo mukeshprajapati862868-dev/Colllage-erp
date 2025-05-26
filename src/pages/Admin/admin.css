@@ -1,0 +1,93 @@
+/* Container styling */
+.admin-user-list {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styles */
+.heading {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Table styling */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.user-table th {
+  background-color: #f4f4f4;
+}
+
+/* Login Box styling */
+.login-box {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.login-box h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 10px;
+}
+
+/* Faculty Box styling */
+.faculty-box {
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid #28a745;
+  background-color: #e8f5e9;
+  border-radius: 8px;
+}
+
+.faculty-box h3 {
+  font-size: 1.5em;
+  color: #388e3c;
+}
+
+.faculty-box p {
+  color: #2e7d32;
+}

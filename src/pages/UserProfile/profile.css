@@ -1,0 +1,66 @@
+.user-profile-container {
+  padding: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.user-profile-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.user-profile-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #555;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.custom-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+  color: #222;
+}
+
+.custom-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .user-profile-title {
+    font-size: 20px;
+  }
+
+  .user-profile-subtitle {
+    font-size: 16px;
+  }
+
+  .custom-table th,
+  .custom-table td {
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+}

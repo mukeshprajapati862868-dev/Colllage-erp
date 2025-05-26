@@ -1,0 +1,71 @@
+.navbar {
+  background-color: #2a2a72;
+  color: white;
+  padding: 12px 20px;
+  position: fixed;   /* Fix navbar at top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;     /* Stay above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Container flex for logo and toggle */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Logo */
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+/* Toggle button for mobile menu */
+.navbar-toggle {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Mobile menu container */
+.navbar-links-mobile {
+  margin-top: 12px;
+  background-color: #2a2a72;
+  padding: 10px 20px;
+  position: fixed;    /* So menu stays fixed below navbar */
+  top: 56px;          /* height of navbar approx + some space */
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Mobile menu items */
+.navbar-links-mobile li {
+  list-style: none;
+  margin: 8px 0;
+}
+
+/* Link styles */
+.navbar-link,
+.text {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 8px 0;
+}
+
+/* Optional: hover effect */
+.navbar-link:hover,
+.text:hover {
+  color: #ffcc00;
+}

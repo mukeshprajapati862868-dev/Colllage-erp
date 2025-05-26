@@ -1,0 +1,98 @@
+.student-list-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-heading,
+.student-form-heading,
+.student-list-heading {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+  justify-items: center; /* center input fields inside grid items */
+}
+
+.input-field {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 280px; /* limit field width for consistency */
+  box-sizing: border-box;
+}
+
+.read-only {
+  background-color: #f8f8f8;
+  color: #555;
+  cursor: not-allowed;
+}
+
+.login-btn,
+.submit-btn {
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover,
+.submit-btn:hover {
+  background-color: #2c3e9a;
+}
+
+.student-table {
+  width: 100%;
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f0f0f0;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .input-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .input-field {
+    font-size: 13px;
+    padding: 6px 8px;
+    max-width: 100%;
+  }
+
+  .student-table th,
+  .student-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .student-table {
+    font-size: 12px;
+  }
+}
